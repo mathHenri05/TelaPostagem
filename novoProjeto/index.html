@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkDone | Novo Projeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<nav>
+        <div class="navbar">
+            <div class="logo"><a href="">WorkDone</a></div>
+            <div class="search-bar">
+                <i class='bx bx-search-alt'></i>
+                <input type="search" name="" id="" placeholder="Pesquise por projetos, pessoas e filtros...">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Novo Projeto</label>
+                <div class="profile-photo">
+                    <img src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>-->
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WorkDone | Novo Projeto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <form id="multiStepForm">
+                <div class="form-step" id="step1">
+                    <h2>Etapa 1: Informações Pessoais</h2>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                    <button type="button" class="next-btn">Próximo</button>
+                </div>
+    
+                <div class="form-step" id="step2" style="display: none;">
+                    <h2>Etapa 2: Detalhes de Contato</h2>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <button type="button" class="next-btn">Próximo</button>
+                    <button type="button" class="prev-btn">Anterior</button>
+                </div>
+    
+                <div class="form-step" id="step3" style="display: none;">
+                    <h2>Etapa 3: Descrição</h2>
+                    <label for="desc">Descrição:</label>
+                    <input type="text" id="desc" required>
+                    <button type="button" class="next-btn">Próximo</button>
+                    <button type="button" class="prev-btn">Anterior</button>
+                </div>
+    
+                <div class="form-step" id="step4" style="display: none;">
+                    <h2>Etapa 4: Revisão</h2>
+                    <p id="review"></p>
+                    <button type="button" class="prev-btn">Anterior</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
